@@ -68,6 +68,6 @@ $data = [
         ],
 ];
 
-echo($woocommerce->post('orders', $data));
+print_r($woocommerce->post('orders', $data));
 
 ?>
