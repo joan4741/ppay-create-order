@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Crea tu Pedido</title>
+    <meta charset="utf8">
+</head>
+<body>
+
+
+    <form action= "PPYME.php" method="POST">
+        <p>Coloca tu codigo de vendedor:<input type="number" name="codigo" /></p>
+        <p>Producto o descripcion de compra:<input type="text" name="producto" /></p>
+        <p>Cantidad de productos:<input type="number" name="iten" /></p>
+        <p>Moneda<select name="Moneda">
+            <option value="1">CRC</option> <option value="2">USD</option> </select></p>
+        <p>Precio:<input type="number" min="0.00" max="1000000.00" step="0.00" name="precio" /></p>
+        <h3>Datos de Envio</h3>
+        <p>Nombre:<input type="text" name="nombre" /></p>
+        <p>Apellidos:<input type="text" name="apellidos" /></p>
+        <p>Teléfono:<input type="tel" name="telefono" /></p>
+        <p>Dirección:<input type="text" name="direccion" /></p>
+        <p>País (<a href="url"> https://laendercode.net/es/ </a>):<input type="text" name="pais" placeholder="CR"/></p>
+        <p>Provincia o Estado: <input type="text" name="provincia" /></p>
+        <p>Cantón o Ciudad:<input type="text" name="canton" /></p>
+        <p>Codigo Postal:<input type="number" name="postal" /></p>
+        <p>Email:<input type="email" name="email" /></p>
+
+ 
+         <p> <input type="submit" value="Enviar" /></p>
+
+        </form>
+
+</body>>
+</html>

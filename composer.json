@@ -1,0 +1,13 @@
+{
+    "name": "jeo/p-yli",
+    "description": "Beta 1",
+    "authors": [
+        {
+            "name": "Jonathan Esquivel",
+            "email": "primary@pymepay.com"
+        }
+    ],
+    "require": {
+        "automattic/woocommerce": "^3.0"
+    }
+}
